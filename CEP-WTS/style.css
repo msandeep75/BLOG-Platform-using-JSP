@@ -1,0 +1,339 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding-top: 60px; /* Add space for the fixed nav bar */
+}
+
+
+
+
+        /*nav styling: */
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            z-index: 1000; /* Ensure it's above other content */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center nav items horizontally */
+            align-items: center;
+        }
+        
+        nav li {
+            margin: 0 15px; /* Space between nav items */
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green background for buttons */
+            border-radius: 5px; /* Rounded corners for buttons */
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+
+
+
+
+        /*.postcontent styling: */
+
+
+/* Centering the post content area */
+.postcontent {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    margin: 20px auto; /* Center horizontally with vertical spacing */
+}
+
+/* Title styling */
+.postcontent h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Image styling */
+.postcontent img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Paragraph styling */
+.postcontent p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* "Read More" link styling */
+.postcontent a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.postcontent a:hover {
+    color: #0056b3;
+}
+
+/* Form styling */
+.postcontent form {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.postcontent textarea {
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.postcontent button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.postcontent button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+        /* Header Section */
+        .header-container {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background-color: #4caf50;
+            color: white;
+        }
+
+        /* Logout Button inside Header */
+        .logout-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background-color: #e60000;
+        }
+
+        /* Dustbin Section (Recently Deleted Posts) */
+        .dustbin-container {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            width: 200px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .dustbin-container h2 {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .dustbin-item {
+            background-color: #f1f1f1;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .dustbin-item a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .dustbin-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Posts Section Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px;
+        }
+
+        li {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .abtheader{
+            align-items: center;
+        }
+
+        p {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add some padding to the body */
+        .content-container {
+            padding: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* width: 100%;
+            max-width: 500px; */
+            box-sizing: border-box;
+        }
+        
+        /* Form styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Label styles */
+        form label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        /* Input field styles */
+        form input[type="text"],
+        form textarea {
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        /* Textarea styles */
+        form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        /* Button styles */
+        form button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        form button:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Placeholder text style */
+        form input::placeholder,
+        form textarea::placeholder {
+            color: #aaa;
+            font-style: italic;
+        }
