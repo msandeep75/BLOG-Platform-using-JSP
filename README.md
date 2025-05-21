@@ -10,6 +10,7 @@ A minimalist yet functional blogging platform built with JSP, HTML, and CSS. Thi
 
 
 ===>Project Structure:
+
     CEP-WTS/
     ├── about.jsp
     ├── addComment.jsp
