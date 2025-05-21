@@ -1,4 +1,6 @@
 Blogging Platform using JSP
+
+
 A minimalist yet functional blogging platform built with JSP, HTML, and CSS. This project facilitates content creation, reading, and moderation, providing a straightforward interface for users and administrators alike.
 
 ===>Features:
