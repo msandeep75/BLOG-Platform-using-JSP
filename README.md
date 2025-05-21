@@ -1,9 +1,9 @@
 Blogging Platform using JSP
 
-
 A minimalist yet functional blogging platform built with JSP, HTML, and CSS. This project facilitates content creation, reading, and moderation, providing a straightforward interface for users and administrators alike.
 
 ===>Features:
+
     1.User Authentication: Secure login system for users.
     2.Content Creation: Users can write and submit blog posts.
     3.Content Management: Edit or delete existing posts.
@@ -40,12 +40,14 @@ A minimalist yet functional blogging platform built with JSP, HTML, and CSS. Thi
 
 
 ===>Technologies Used:
+
     Frontend: HTML, CSS
     Backend: Java Server Pages (JSP)
     Database: To be integrated
 
 
 ===>Getting Started
+
     1.Clone the repository:
       git clone https://github.com/msandeep75/BLOG-Platform-using-JSP.git
     2.Navigate to the project directory:
@@ -59,5 +61,6 @@ A minimalist yet functional blogging platform built with JSP, HTML, and CSS. Thi
 
 
 ===>Notes
+
     Ensure your server is properly configured to handle JSP files.
     Database integration is pending; future updates will include persistent storage.
